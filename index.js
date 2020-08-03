@@ -25,6 +25,12 @@ let notes = [
     date: '2019-05-30T19:20:14.298Z',
     important: true,
   },
+  {
+    id: 4,
+    content: 'Heroku deployment is difficult',
+    date: '2019-05-30T19:20:14.298Z',
+    important: true,
+  },
 ]
 
 const requestLogger = (request, response, next) => {
