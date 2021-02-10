@@ -4,11 +4,19 @@ const noteSchema = new mongoose.Schema({
   content: {
     type: String,
     minlength: 5,
-    required: true
+    required: true,
   },
   date: Date,
   important: Boolean,
+  user: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User',
+  },
 })
+
+/* const Model = mongoose.model('Test Note', noteSchema)
+
+let doc = await Model.create({content:'abcdefg'}) */
 
 noteSchema.set('toJSON', {
   transform: (document, returnedObject) => {
