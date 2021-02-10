@@ -10,3 +10,5 @@ server.listen(config.PORT, () => {
 })
 
 
+// HEROKU
+// https://hidden-wave-86862.herokuapp.com/
