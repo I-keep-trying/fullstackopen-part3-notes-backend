@@ -12,3 +12,7 @@ server.listen(config.PORT, () => {
 
 // HEROKU
 // https://hidden-wave-86862.herokuapp.com/
+
+// FRONT END
+// C:\Users\Owner\webdev\fullstackopen\notes-redux-router-part7
+// no github repo

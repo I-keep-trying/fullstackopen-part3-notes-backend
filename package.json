@@ -4,9 +4,9 @@
   "engines": {
     "node": "14.x"
   },
-    "main": "index.js",
+  "main": "index.js",
   "scripts": {
-    "start-prod": "node ./build",
+    "start-prod": "node index.js",
     "start": "cross-env NODE_ENV=production node index.js",
     "dev": "cross-env NODE_ENV=development nodemon index.js",
     "test": "cross-env NODE_ENV=test jest --verbose --runInBand",
