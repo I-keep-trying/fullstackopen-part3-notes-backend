@@ -1,8 +1,10 @@
 {
   "name": "fullstackopen-part3-notes",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
+    "main": "index.js",
   "scripts": {
     "start-prod": "node ./build",
     "start": "cross-env NODE_ENV=production node index.js",
